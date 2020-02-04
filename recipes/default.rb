@@ -18,8 +18,7 @@
 #
 
 apt_repository 'osuosl' do
-  uri 'http://ftp.osuosl.org/pub/osl/repos/apt/'
-  components ['main']
-  key 'http://ftp.osuosl.org/pub/osl/repos/apt/repo.gpg'
-  action :add
+  uri 'https://ftp.osuosl.org/pub/osl/repos/apt/'
+  components %w(main)
+  key 'https://ftp.osuosl.org/pub/osl/repos/apt/repo.gpg'
 end
