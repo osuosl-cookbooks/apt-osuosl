@@ -15,3 +15,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
+
+apt_repository 'osuosl' do
+  uri 'https://ftp.osuosl.org/pub/osl/repos/apt/'
+  components %w(main)
+  key 'https://ftp.osuosl.org/pub/osl/repos/apt/repo.gpg'
+end
