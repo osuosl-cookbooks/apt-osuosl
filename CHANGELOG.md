@@ -3,6 +3,10 @@ apt-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 apt-osuosl cookbook.
 
+2.1.1 (2023-07-31)
+------------------
+- Add Debian 12 support
+
 2.1.0 (2022-01-14)
 ------------------
 - removed support for debian 9 and 10
