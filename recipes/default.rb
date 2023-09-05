@@ -21,4 +21,5 @@ apt_repository 'osuosl' do
   uri 'https://ftp.osuosl.org/pub/osl/repos/apt/'
   components %w(main)
   key 'https://ftp.osuosl.org/pub/osl/repos/apt/repo.gpg'
+  arch 'amd64'
 end
