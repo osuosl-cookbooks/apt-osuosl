@@ -3,6 +3,10 @@ apt-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 apt-osuosl cookbook.
 
+2.1.2 (2023-09-05)
+------------------
+- Update apt for amd64
+
 2.1.1 (2023-07-31)
 ------------------
 - Add Debian 12 support
