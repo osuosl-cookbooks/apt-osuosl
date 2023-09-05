@@ -13,7 +13,8 @@ describe 'apt-osuosl::default' do
         expect(chef_run).to add_apt_repository('osuosl').with(
           uri: 'https://ftp.osuosl.org/pub/osl/repos/apt/',
           components: %w(main),
-          key: %w(https://ftp.osuosl.org/pub/osl/repos/apt/repo.gpg)
+          key: %w(https://ftp.osuosl.org/pub/osl/repos/apt/repo.gpg),
+          arch: 'amd64'
         )
       end
     end
