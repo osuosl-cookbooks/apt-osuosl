@@ -6,6 +6,6 @@ issues_url       'https://github.com/osuosl-cookbooks/apt-osuosl/issues'
 license          'Apache-2.0'
 chef_version     '>= 16.0'
 description      'Installs/Configures apt-osuosl'
-version          '2.1.2'
+version          '2.1.3'
 
 supports         'debian', '~> 12.0'
