@@ -8,5 +8,4 @@ chef_version     '>= 16.0'
 description      'Installs/Configures apt-osuosl'
 version          '2.1.2'
 
-supports         'debian', '~> 11.0'
 supports         'debian', '~> 12.0'
