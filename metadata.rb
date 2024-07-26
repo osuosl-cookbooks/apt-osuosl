@@ -9,3 +9,4 @@ description      'Installs/Configures apt-osuosl'
 version          '2.1.3'
 
 supports         'debian', '~> 12.0'
+supports         'ubuntu', '~> 24.04'
