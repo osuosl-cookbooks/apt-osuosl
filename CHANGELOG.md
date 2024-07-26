@@ -3,6 +3,10 @@ apt-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 apt-osuosl cookbook.
 
+2.1.4 (2024-07-26)
+------------------
+- Add support for Ubuntu
+
 2.1.3 (2024-05-07)
 ------------------
 - Remove support for Debian 11
