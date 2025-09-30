@@ -2,7 +2,7 @@
 # Cookbook:: apt-osuosl
 # Recipe:: default
 #
-# Copyright:: 2020-2024, Oregon State University
+# Copyright:: 2020-2025, Oregon State University
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,4 +22,10 @@ apt_repository 'osuosl' do
   components %w(main)
   key 'https://ftp.osuosl.org/pub/osl/repos/apt/repo.gpg'
   arch 'amd64'
+  # signed-by does not work on Debian 12
+  if debian? && node['platform_version'].to_i < 13
+    signed_by false
+  else
+    signed_by true
+  end
 end
