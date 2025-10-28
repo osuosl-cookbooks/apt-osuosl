@@ -26,6 +26,13 @@ platforms:
     transport:
       username: debian
 
+  - name: debian-13
+    driver_plugin: openstack
+    driver_config:
+      image_ref: "Debian 13"
+    transport:
+      username: debian
+
   - name: ubuntu-24.04
     driver_plugin: openstack
     driver_config:
