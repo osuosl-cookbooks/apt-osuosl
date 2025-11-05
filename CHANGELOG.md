@@ -3,6 +3,10 @@ apt-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 apt-osuosl cookbook.
 
+2.1.6 (2025-11-05)
+------------------
+- Add Debian 13 support
+
 2.1.5 (2025-09-30)
 ------------------
 - Disable signed-by on Debian 12
