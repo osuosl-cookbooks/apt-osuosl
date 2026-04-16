@@ -3,6 +3,10 @@ apt-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 apt-osuosl cookbook.
 
+2.1.7 (2026-04-16)
+------------------
+- Chef 19 upgrade
+
 2.1.6 (2025-11-05)
 ------------------
 - Add Debian 13 support
